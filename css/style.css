@@ -1,0 +1,94 @@
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Изменение цвета фона */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    animation: fadeIn 0.5s ease; /* Добавление анимации при появлении */
+}
+
+button#enterButton {
+    background-color: #28a745;  
+    color: #fff; 
+}
+
+button#enterButton:hover {
+    background-color: #218838; 
+}
+
+button#submitButton {
+    background-color: #dc3545; 
+    color: #fff; 
+}
+
+button#submitButton:hover {
+    background-color: #c82333;  
+}
+
+input[type="text"] {
+    padding: 8px;
+    font-size: 16px;
+    margin-right: 8px;
+    width: 300px;  
+}
+
+button#enterButton {
+    background-color: #28a745;  
+    color: #fff; 
+}
+
+button#enterButton:hover {
+    background-color: #218838; 
+}
+
+button#submitButton {
+    background-color: #dc3545; 
+    color: #fff; 
+}
+
+button#submitButton:hover {
+    background-color: #c82333;  
+}
+
+
+#table {
+    border-collapse: collapse;
+    margin-top: 20px;
+    width: 100%; 
+}
+
+#table td, #table th {
+    padding: 10px;
+    border: 1px solid #ddd;  
+}
+
+#table th {
+    background-color: #f2f2f2;  
+}
+
+#table tr:nth-child(even) {
+    background-color: #f2f2f2;  
+}
+
+#table tr:hover {
+    background-color: #ddd;  
+}
+
